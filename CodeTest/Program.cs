@@ -15,6 +15,7 @@
                 int minimum = Math.Min(height[left], height[right]);
 
                 maxAmount = Math.Max(maxAmount, minimum * (right - left));
+
                 if (height[left] < height[right])
                 {
                     left++;
